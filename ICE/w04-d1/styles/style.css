@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+h1:hover{
+    color: #000;
+}
+body {
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 50%;
+}
+.principles{
+    list-style-type: none;
+            padding: 0;
+            text-align: left;
+}
+
+.principles li{
+    margin: 10px 0;
+}
+
+.author{
+    font-weight: bold;
+}
+
+.quote{
+    color: white;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+}
