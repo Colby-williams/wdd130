@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'DM Serif Text', Helvetica, sans-serif;
+}
+
+header {
+    background-color: #dc913bb6;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+h1, h2, h4{
+    font-family: "Sour Gummy"; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: rgb(119, 181, 235);
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rivers-title{
+    color: black;
+    margin-top: 80px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.rivers-subtitle{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.ID-image {
+    grid-column: 1/2;
+    padding-left: 100px;
+    padding-bottom: 80px;
+}
+
+.Idaho{
+    color: black;
+    align-items: stretch;
+    grid-column: 2/3;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.Utah{
+    padding-left: 100px;
+    grid-column: 1/2;
+    padding-bottom: 80px;
+}
+
+.UT-image {
+    grid-column: 2/2;
+    padding-left: 150px;
+    grid-column: 2/3;
+    padding-bottom: 80px;
+}
+
+.AZ-image {
+    padding-left: 100px;
+    grid-column: 1/2;
+}
+
+.Arizona{
+    padding-right: 100px;
+    padding-top: 80px;
+    grid-column: 2/3;
+}
+
+footer {
+    background-color: #8b674d;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer .social img {
+   padding-top: 15px;
+}

@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
     margin: 0;
     padding: 0;
+}
+h1, h2, h4{
+    font-family:"Sour Gummy"; 
 }
 
 h2 {
@@ -60,6 +65,7 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .book:hover, .join:hover {
@@ -133,6 +139,7 @@ main section img {
     transition: transform .5s;
     box-shadow: 5px 5px 10px black;
 }
+
 .card-img, .mountains {
     width: 100%;
 }
@@ -141,9 +148,11 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
+
 .rapids-card, .camping-card, .rivers-card {
     margin: 200px 0;
 }
+
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
@@ -177,7 +186,7 @@ main section img {
 }
 
 .msg {
-    background-color: rgb(0, 141, 56);
+    background-color: #8b674d;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -197,7 +206,7 @@ main section img {
 }
 
 footer {
-    background-color: rgb(0, 141, 56);
+    background-color: #8b674d;
     color: white;
     padding: 25px 50px;
     margin-top: 200px;
