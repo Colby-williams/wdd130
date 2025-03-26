@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/homepage.css">
     <title>Homepage</title>
+    
 </head>
 <body>
     <div id="content">
@@ -14,14 +15,27 @@
             <a href="./index.html">Home</a>
             <a href="./how_to_get_started.html">How to get started</a>
             <a href="./rules_and_guidlines.html">Rules and Guidelines</a>
-            <a href="contactus.html">Contact Us</a>
+            <!-- <a href="contactus.html">Contact Us</a> -->
 </nav>
     </header>
     <main class="home-grid">
 <div class="hero">
 <h1>History of Pickleball</h1>
-<p>Pickleball began in 1965 by three pals, Joel Pritchard, Bill Bell, and Barney McCallum, on Bainbridge Island, Washington. They formed the game for family fun, using ping-pong paddles and a plastic ball on a badminton court. The sport grew fast. They lowered the net to 36 inches and created specific rules for play. By 1972, a group formed to safeguard the sport, marking the first known tournament in the same year. Nowadays, pickleball is one of the quickest expanding sports in the U.S. and its popularity is spreading globally. </p>
+<button onclick="typeWriter()">Learn More</button>
+<p id="demo"></p>
 </div>
+<script>
+    var i = 0;
+        var txt = 'Pickleball began in 1965 by three pals, Joel Pritchard, Bill Bell, and Barney McCallum, on Bainbridge Island, Washington. They formed the game for family fun, using ping-pong paddles and a plastic ball on a badminton court. The sport grew fast. They lowered the net to 36 inches and created specific rules for play. By 1972, a group formed to safeguard the sport, marking the first known tournament in the same year. Nowadays, pickleball is one of the quickest expanding sports in the U.S. and its popularity is spreading globally'; /* The text */
+        var speed = 25; /* The speed/duration of the effect in milliseconds */
+        
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }</script>
 <div class="basics">
 <h3>Basic Rules of Pickleball</h3>
 <p>
