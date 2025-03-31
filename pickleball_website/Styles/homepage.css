@@ -11,10 +11,11 @@ body {
 
 h1, h3 {
     font-family: "Marhey", sans-serif, "Arial";
+    text-align: center;
 }
 
 header {
-    background-color: #FF934F;
+    background-color: #fabe43;
     max-width: 100%;
 }
 
@@ -49,47 +50,59 @@ nav a:hover {
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 350px 400px 300fr;
+    /* grid-template-rows: 350px 400px 300fr; */
     gap: 25px;
 }
 
 .hero{
     text-align: center;
     margin-top: 50px;
-    padding-left: 250px;
-    padding-right: 250px;
     border-radius: 5px;
-    grid-column: 1/3;
+    grid-column: 1/-1;
     grid-row: 1/2;
     color: #002642;
+    justify-self: center;
+    min-width: 200px;
+    max-width: 50%;
 }
 
 .basics{
-    margin-top: 50px;
     grid-column: 1/2;
     border: 2px solid black;
     border-radius: 10px;
     grid-row: 2/3;
-    text-align: center;
     background-color: #FF934F;
-
 }
-
+.basics p{
+    padding: 0 50px 25px 50px;
+    text-align: left;
+}
 .court{
     grid-column: 1/2;
-    margin-left: 100px;
     grid-row: 3/3;
-}
-
-.sunrise  {
-    grid-column: 2/2;
+    width: 100%;
     height: 400px;
+
+    
+}
+#image-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: url(../Pictures/patrick-nguyen-_FSKZoMVDQM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sunrise  {
+    grid-column: 2/2;;
     grid-row: 2/3;
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
 }
 
 .benefits{
     grid-column: 2/2;
-    margin-top: 100px;
     border: 2px solid black;
     border-radius: 10px;
     justify-content: center;
@@ -97,13 +110,18 @@ nav a:hover {
     text-align: center;
     grid-row: 3/3;
     background-color: #FF934F;
+    padding: 50px;
+}
+
+.benefits p{
+    padding: 0 50px 0 50px;
+    text-align: left;
 }
 
 footer {
-    background-color: #ffa200;
+    background-color: #fabe43;
     color: black;
-    padding: 25px 50px;
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -114,14 +132,20 @@ footer a {
     text-decoration: none;
     color: black;
     text-align: center;
-    
+    padding: 25px;
 }
 
 footer a:hover {
     color: white;
-    background-color:#002642 ;
+    background-color:#002642;
+    width: 65px;
 }
 
 footer .social img {
-   padding-top: 15px;
+    width: 65px;
+    height: 65px;
+}
+
+footer .social{
+    display: flex;
 }
