@@ -50,7 +50,6 @@ nav a:hover {
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 350px 400px 300fr; */
     gap: 25px;
 }
 
@@ -73,26 +72,28 @@ nav a:hover {
     grid-row: 2/3;
     background-color: #FF934F;
 }
+
 .basics p{
     padding: 0 50px 25px 50px;
     text-align: left;
 }
+
 .court{
     grid-column: 1/2;
     grid-row: 3/3;
     width: 100%;
-    height: 400px;
-
-    
+    height: 400px; 
 }
+
 #image-container {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: url(../Pictures/patrick-nguyen-_FSKZoMVDQM-unsplash.jpg);
+    background: url(../Pictures/pexels-franki-frank-29821186.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .sunrise  {
     grid-column: 2/2;;
     grid-row: 2/3;

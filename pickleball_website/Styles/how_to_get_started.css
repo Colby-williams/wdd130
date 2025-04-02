@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+/* Content format */
 body {
-    font-family: "Source Serif 4", serif, "Georgia";
-    
+    font-family: "Source Serif 4", serif, "Georgia"; 
 }
 
 #content{
@@ -14,11 +14,15 @@ h1, h3 {
     text-align: center;
 }
 
+h3{
+    font-size: 25px;
+}
+
 header {
     background-color: #fabe43;
     max-width: 100%;
 }
-
+/* Nav bar content */
 .logo{
     width: 90px;
 }
@@ -46,95 +50,103 @@ nav a:hover {
     color: white;
     text-decoration: none;
 }
-
+/* Main body content */
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 350px 400px 300fr;
-    gap: 25px;
+    /* grid-template-columns: 1fr 1fr; */
 }
-
-.hero{
+.home-grid p{
     text-align: center;
-    margin-top: 50px;
-    padding-left: 250px;
-    padding-right: 250px;
-    border-radius: 5px;
-    grid-column: 1/3;
-    grid-row: 1/2;
-    color: #002642;
+    font-size: 18px;
 }
 
-.basics{
-    margin-top: 50px;
-    grid-column: 1/2;
+.image-container{
+    float: left;
+    width: 50%;
+    display: table;
+    max-height: 500px;
+}
+
+/* .court{
+    height: 100%;
+} */
+
+/* .paddles{
+    height: 100%;
+} */
+
+.Gear {
+    background-color: #FF934F;
     border: 2px solid black;
     border-radius: 10px;
-    grid-row: 2/3;
+    margin-top: 50px;
+} 
+.Advice {
     background-color: #FF934F;
-}
-.basics p{
-    padding: 0 50px 25px 50px;
-    text-align: left;
-}
-.court{
-    grid-column: 1/2;
-    margin-left: 100px;
-    grid-row: 3/3;
-    
-}
-
-.sunrise  {
-    grid-column: 2/2;
-    height: 400px;
-    grid-row: 2/3;
-    object-fit:fill;
-    height: fit-content;
-    width: fit-content;
-}
-
-.benefits{
-    grid-column: 2/2;
-    margin-top: 100px;
     border: 2px solid black;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    grid-row: 3/3;
+    margin-top: 50px;
+}
+
+.Spots {
     background-color: #FF934F;
-    padding: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
 }
 
-.benefits p{
-    padding: 0 50px 0 50px;
-    text-align: left;
+#image-container1 {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: url(../Pictures/pexels-franki-frank-29821186.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
 }
 
+#image-container2 {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: url(../Pictures/pexels-lindsey-flynn-494668519-19641925.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+
+}
+
+/* Footer bar content */
 footer {
     background-color: #fabe43;
     color: black;
-    padding: 25px 50px;
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
-    height: 100px;
 }
 
 footer a {
     text-decoration: none;
     color: black;
     text-align: center;
-    padding: 35px;
+    padding: 25px;
 }
 
 footer a:hover {
     color: white;
-    background-color:#002642 ;
+    background-color:#002642;
+    width: 65px;
 }
 
 footer .social img {
-   padding-top: 15px;
+    width: 65px;
+    height: 65px;
+}
+
+footer .social{
+    display: flex;
 }
