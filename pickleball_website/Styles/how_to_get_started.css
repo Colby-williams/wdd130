@@ -61,7 +61,6 @@ nav a:hover {
 }
 
 .image-container{
-    float: left;
     width: 50%;
     display: table;
     max-height: 500px;
@@ -81,11 +80,22 @@ nav a:hover {
     border-radius: 10px;
     margin-top: 50px;
 } 
+
+.Gear p {
+    text-align: left;
+    padding: 0 50px 50px 50px;
+}
+
 .Advice {
     background-color: #FF934F;
     border: 2px solid black;
     border-radius: 10px;
     margin-top: 50px;
+}
+
+.Advice p {
+    text-align: left;
+    padding: 0 50px 50px 50px;
 }
 
 .Spots {
@@ -95,7 +105,12 @@ nav a:hover {
     margin-top: 50px;
 }
 
-#image-container1 {
+.Spots p {
+    text-align: left;
+    padding: 0 50px 50px 50px;
+}
+
+/* #image-container1 {
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -104,18 +119,15 @@ nav a:hover {
     background-size: cover;
     background-attachment: fixed;
     background-position: left;
-}
+} */
 
 #image-container2 {
     height: 500px;
     width: 100%;
-    overflow: hidden;
     background: url(../Pictures/pexels-lindsey-flynn-494668519-19641925.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: right;
-
 }
 
 /* Footer bar content */
