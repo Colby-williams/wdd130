@@ -10,8 +10,8 @@ Fonts are separated by a | */
 :root {
   /* TODO: Week07 - change the values below to your colors from your palette */
   --primary-color: #FF934F;
-  --secondary-color: #002642;
-  --accent1-color: white;
+  --secondary-color: #fabe43;
+  --accent1-color: #002642;
   --accent2-color: black;
 
   /* TODO: Week07 - change the values below to your chosen font(s). */
@@ -26,7 +26,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: black; /* paragraph text on a colored background */
   --paragraph-background-color: #FF934F;
   --nav-link-color: black;
-  --nav-background-color: #ffa200;
+  --nav-background-color: #fabe43;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #002642;
   /* TODO: Week07 - test out your colors using by viewing your html and interacting with it.
